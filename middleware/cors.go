@@ -7,7 +7,6 @@ import (
 	"strings"
 )
 
-
 // 跨域
 func Cors() gin.HandlerFunc {
 	return func(c *gin.Context) {

@@ -1,9 +1,9 @@
 package conf
 
 import (
+	yaml "gopkg.in/yaml.v2"
 	"io/ioutil"
 	"strings"
-	yaml "gopkg.in/yaml.v2"
 )
 
 // Dictinary 字典
